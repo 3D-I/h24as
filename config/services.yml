@@ -1,0 +1,9 @@
+services:
+    threedi.hideactivity24hrs.listener:
+        class: threedi\hideactivity24hrs\event\main_listener
+        arguments:
+            - '@auth'
+            - '@user'
+            - '@?rmcgirr83.activity24hours.modify_activity_display'
+        tags:
+            - { name: event.listener }
