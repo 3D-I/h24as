@@ -1,7 +1,7 @@
 {
 	"name": "threedi/hideactivity24hrs",
 	"type": "phpbb-extension",
-	"description": "Hide the statistics block to users/groups, at will. Requires the extension - 24 hour activity stats >= 1.0.6 - to be enabled, first.",
+	"description": "Hide the statistics block of the extension “24 hour activity stats” >= 1.0.6 to users/groups, at will. The statistics will be shown only to authorized users/groups, based on the permission under ACP->permissions->misc. As well modifies the native ACP's “time online span” to accept up to 9999 minutes instead of 999. If the father extension will be disabled then only the online time span modifier will continue to work.",
 	"homepage": "https://github.com/3D-I/",
 	"version": "1.0.0-RC",
 	"time": "2017-12-31",
