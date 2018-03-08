@@ -4,6 +4,5 @@ services:
         arguments:
             - '@auth'
             - '@user'
-            - '@?rmcgirr83.activity24hours.modify_activity_display'
         tags:
             - { name: event.listener }
